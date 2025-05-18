@@ -150,7 +150,7 @@ nodes {
     z: 0.502
   }
   type: TYPE_TEXT
-  text: "\"line_break\" checkmark is enabled in the text bellow"
+  text: "\"line_break\" checkmark is enabled in the text below"
   font: "default"
   id: "text_info"
   line_break: true
