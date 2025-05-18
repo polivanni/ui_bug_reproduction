@@ -192,7 +192,7 @@ nodes {
     z: 0.502
   }
   type: TYPE_TEXT
-  text: "1)"
+  text: "2)"
   font: "default"
   id: "text_info2"
   line_break: true
