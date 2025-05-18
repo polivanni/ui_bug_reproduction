@@ -1,0 +1,223 @@
+script: "/main/main.gui_script"
+fonts {
+  name: "default"
+  font: "/builtins/fonts/default.font"
+}
+nodes {
+  position {
+    x: 560.0
+    y: 447.0
+  }
+  size {
+    x: 200.0
+    y: 50.0
+  }
+  type: TYPE_TEXT
+  text: "<text>"
+  font: "default"
+  id: "text_main"
+  line_break: true
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 297.0
+    y: 447.0
+  }
+  size {
+    x: 200.0
+    y: 50.0
+  }
+  color {
+    x: 0.102
+    y: 0.102
+    z: 0.102
+  }
+  type: TYPE_BOX
+  id: "button_create_text"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  size {
+    x: 200.0
+    y: 50.0
+  }
+  type: TYPE_TEXT
+  text: "CREATE TEXT"
+  font: "default"
+  id: "text_1"
+  parent: "button_create_text"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 297.0
+    y: 372.0
+  }
+  size {
+    x: 200.0
+    y: 50.0
+  }
+  color {
+    x: 0.102
+    y: 0.102
+    z: 0.102
+  }
+  type: TYPE_BOX
+  id: "button_create_layout"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  size {
+    x: 200.0
+    y: 50.0
+  }
+  type: TYPE_TEXT
+  text: "CREATE LAYOUT"
+  font: "default"
+  id: "text_2"
+  parent: "button_create_layout"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 434.0
+    y: 214.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.102
+    y: 0.102
+    z: 0.102
+  }
+  type: TYPE_BOX
+  id: "layout"
+  inherit_alpha: true
+}
+nodes {
+  size {
+    x: 200.0
+    y: 30.0
+  }
+  type: TYPE_TEXT
+  text: "<text>"
+  font: "default"
+  id: "layout_text_1"
+  parent: "layout"
+  inherit_alpha: true
+}
+nodes {
+  size {
+    x: 200.0
+    y: 30.0
+  }
+  type: TYPE_TEXT
+  text: "<text>"
+  font: "default"
+  id: "layout_text_2"
+  parent: "layout"
+  inherit_alpha: true
+}
+nodes {
+  size {
+    x: 200.0
+    y: 30.0
+  }
+  type: TYPE_TEXT
+  text: "<text>"
+  font: "default"
+  id: "layout_text_3"
+  parent: "layout"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 560.0
+    y: 543.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.502
+    y: 0.502
+    z: 0.502
+  }
+  type: TYPE_TEXT
+  text: "\"line_break\" checkmark is enabled in the text bellow"
+  font: "default"
+  id: "text_info"
+  line_break: true
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 155.0
+    y: 447.0
+  }
+  size {
+    x: 40.0
+    y: 40.0
+  }
+  color {
+    x: 0.502
+    y: 0.502
+    z: 0.502
+  }
+  type: TYPE_TEXT
+  text: "1)"
+  font: "default"
+  id: "text_info1"
+  line_break: true
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 155.0
+    y: 371.0
+  }
+  size {
+    x: 40.0
+    y: 40.0
+  }
+  color {
+    x: 0.502
+    y: 0.502
+    z: 0.502
+  }
+  type: TYPE_TEXT
+  text: "1)"
+  font: "default"
+  id: "text_info2"
+  line_break: true
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 443.0
+    y: 114.0
+  }
+  size {
+    x: 300.0
+    y: 50.0
+  }
+  color {
+    x: 0.502
+    y: 0.502
+    z: 0.502
+  }
+  type: TYPE_TEXT
+  text: "With \"line_break\" enabled the layout above is broken"
+  font: "default"
+  id: "text_info3"
+  line_break: true
+  inherit_alpha: true
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
